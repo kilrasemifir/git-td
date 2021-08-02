@@ -135,7 +135,7 @@ git status
 Enregistrez votre modification:
 ```
 git add *
-git commit -m "je suis l'utilisateur 2"
+git commit -m "je suis l'utilisateur 1"
 ```
 
 et envoyer les modifications sur le repository distant avec la commande:
