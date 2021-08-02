@@ -24,7 +24,7 @@ Vous avez maintenant le projet sur votre système. Mais ce projet est relié ave
 Dans le terminal:
 ```
 cd <nom du projet>
-rm .git
+rm -r .git
 ```
 
 Le but de ces commandes est de supprimer le dossier`.git`. 
@@ -51,11 +51,6 @@ Vous avez maintenant un exemple de commande pour ajouter votre code à ce reposi
 git remote add origin <url de votre repo>
 ```
 et executer la dans le dossier.
-
-Vous pouvez maintenant envoyer vos modification au serveur avec la commande suivante:
-```
-git push -u origin master
-```
 
 `origin` est notre `remote`. Elle fait referance au `repository` sur votre compte github ou gitlab.
 Cette commande dit:
