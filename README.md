@@ -201,7 +201,7 @@ Vous ne devriez pas avoir de problème du conflit.
 Après un git pull, vos récupéreré votre branche et celle de l'autre utilisateur. Pour le voir, vous pouvez utiliser la commande
 
 ```
-git branch
+git branch -a
 ```
 
 ## Exercice 8: Les merges
